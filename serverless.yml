@@ -4,21 +4,21 @@ custom:
   bucket: ${self:service}-to-lob
   region: "us-west-2"
   ### TO ###
-  ToName: "Papa & Nana"
-  ToAddressLine1: "123 SW Fake Street"
-  ToCity: "Portland"
-  ToState: "OR"
+  ToName: "Nanny & Bumpa"
+  ToAddressLine1: "10030 Sunnybrae Ave"
+  ToCity: "Chatsworth"
+  ToState: "CA"
   ToCountry: "US"
-  ToZip: "97205"
+  ToZip: "91367"
   ### FROM ###
-  FromName: "The Girls"
-  FromAddressLine1: "456 SE Fake Street"
-  FromCity: "Milwaukie"
-  FromState: "OR"
+  FromName: "Techonomics"
+  FromAddressLine1: "21255 Burbank Blvd, "
+  FromCity: "Woodland Hills"
+  FromState: "CA"
   FromCountry: "US"
-  FromZip: "97222"
+  FromZip: "91367"
   ### Sign Off Line ###
-  FromLine: "The Girls"
+  FromLine: "Christian Anderson"
 
 provider:
   name: aws
